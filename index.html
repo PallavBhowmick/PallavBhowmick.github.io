@@ -113,13 +113,8 @@
 
     // or enable responsive functionality:
     GitHubCalendar(".react-activity-calendar", "PallavBhowmick", { responsive: true });
-
-    // Use a proxy
-    GitHubCalendar(".react-activity-calendar", "PallavBhowmick", {
-       proxy (PallavBhowmick) {
-         return fetch(`https://your-proxy.com/github?user=${PallavBhowmick}`)
-       }
-    }).then(r => r.text())
+     
+    
 </script>
 
 </html>
