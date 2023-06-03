@@ -1,3 +1,7 @@
+body{
+    scroll-behavior: smooth;
+}
+
 #nav-menu{
     display: flex;
     margin:auto;
