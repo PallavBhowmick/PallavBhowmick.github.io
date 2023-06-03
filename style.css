@@ -20,5 +20,11 @@ height: 30px;
 }
 #home>img{
     width: 100%;
-    height: 90px;
+    height: 100%;
+}
+#about>img:nth-child(1){
+    width: 25%;
+}
+#about>img:nth-child(2){
+    width: 100%;
 }
